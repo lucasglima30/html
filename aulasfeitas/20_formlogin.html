@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuário a versão do html que deve ser renderizada. -->
+<html lang="pt-br">
+	<head>
+		<title>Página de exemplo de estrutura</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Lucas">
+		<meta name="description" content="lista de documentos">
+		<meta name="keywords" content="html5, tecnologia">
+
+		<style>
+			
+			.formLogin{
+				width: 250px;
+				margin: 50px auto 0;
+			}
+
+			.formLogin label{
+				margin-top: 15px;
+				display: block;
+				margin-bottom: 5px;
+			}
+						.formLogin legend{
+				background-color: white;
+				display:  inline-block;
+				padding: 5px;
+
+			}
+			.formLogin fieldset{
+				background-color: #ccc; 
+			}
+
+			#user, #pass, .btn{
+				display: block;
+				width: 100%;
+				box-sizing: border-box;
+				padding: 5px;
+				font-size: 18px;
+				font-family: sans-serif;
+				border:none;
+			}
+			#user, #pass{
+				background-color: #ddd;
+			}
+			#user:focus, #pass:focus{
+				background-color: white;
+			}
+
+			.btn{
+				margin-top: 5px;
+			}
+
+			#user{
+				margin-bottom: 5px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>Exemplo de formulário</h1>
+		
+		<form action="#" method="post" class="formLogin">
+			<fieldset>
+				
+				<legend>Login</legend>
+
+				<label for="user">Digite o seu Usuário:</label>
+				<input type="text" id="user" name="user">
+
+				<label for="pass">Digite sua senha:</label>
+				<input type="password" id="pass" name="pass">
+				<input type="submit" value="Login" name="" class="btn">
+			</fieldset>
+		</form>
+	</body>
+</html>

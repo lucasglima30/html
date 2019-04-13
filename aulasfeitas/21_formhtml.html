@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuário a versão do html que deve ser renderizada. -->
+<html lang="pt-br">
+	<head>
+		<title>Página de exemplo de estrutura</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Lucas">
+		<meta name="description" content="lista de documentos">
+		<meta name="keywords" content="html5, tecnologia">
+
+	<style>
+		
+	</style>
+	</head>
+	<body>
+		<h1>Exemplo de formulário</h1>
+		<form action="#" method="post" class="formLogin">
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<label>Email</label>
+				<input type="email" name="" required placeholder="Digite um email válido">
+				<br>
+				<label>número de filhos</label>
+				<input type="number" min="0" max="100">
+				<br>
+				<label>Nascimento</label>
+				<input type="date" name="">
+				<br>
+
+				<p>Sexo:</p>
+				<label>
+					<input type="radio" name="sexo" value="m">
+					Masculino
+				</label>
+				<label>
+					<input type="radio" name="sexo" value="f">
+					Feminino
+				</label>
+				<br>
+				<label>Estado</label>
+				<select name="estado">
+					<option value="0">Selecione</option>
+					<option value="SP">São Paulo</option>
+					<option value="RJ">Rio de Janeiro</option>
+					<option value="MG">Minas Gerais</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>Área de interesse</legend>
+				<label><input type="checkbox" name="html" value="html">HTML</label>
+				<label><input type="checkbox" name="css">CSS</label>
+				<label><input type="checkbox" name="JS">Javascript</label>
+			</fieldset>
+
+			<fieldset>	
+				<legend>Mensagem</legend>
+				<textarea style="resize: none" name="msg" cols="30" rows="10"></textarea><textarea style="resize: none" name="Contrato" cols="30" rows="10" readonly>Aqui entra o texto do contrato que precisa ser aceito.</textarea>				
+				<label><input type="checkbox" name=""checked>Li e aceito.</label>
+
+				<select multiple size="4">
+					<option>opcao 1</option>
+					<option>opcao 2</option>
+					<option>opcao 3</option>
+					<option>opcao 4</option>
+				</select>
+			</fieldset>
+				<input type="submit" value="Enviar" name="">
+		</form>
+	</body>
+</html>
